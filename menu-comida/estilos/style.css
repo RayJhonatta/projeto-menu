@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdf6ec;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Lora', serif;
+}
+
+/***** CONFIGURAÇÕES GERAIS *****/
+
+/**** CABECALHO *****/
+
+header {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+header > img {
+    height: 200px;
+    width: 350px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+header > h1 {
+    position: absolute;
+    top: 50px;
+    color: white;
+    font-size: 2.3em;
+    text-shadow: 2px 2px 5px black;
+}
+
+header > h2 {
+    position: absolute;
+    top: 100px;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 5px black;
+}
+
+/****** CABEÇALHO ******/
+
+/**** CORPO *****/
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main > section > h2 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+
+.section-container {
+    display: flex;
+}
+
+.div-one {
+    padding-left: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 115px;
+    border-top-left-radius: 8px;
+}
+
+#img-one {
+    width: 105px;
+    height: 67px;
+    border-top-left-radius: 8px;
+    display: block;
+}
+
+.div-information {
+    padding: 10px;
+    text-align: center;
+    height: 260px;
+}
+
+.div-information > h3 {
+    line-height: 1.5;
+}
+
+.div-information > p {
+    padding-top: 16px;
+}
+
+.div-information > .number {
+    font-weight: bolder;
+}
+
+.div-two {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 115px;
+    margin-left: 1px;
+    border-top-right-radius: 8px;
+}
+
+#img-two {
+    width: 115px;
+    height: 67px;
+    display: block;
+    border-top-right-radius: 8px;
+}
+
+.div-two-information {
+    padding: 10px;
+    text-align: center;
+    height: 261px;
+    border-bottom-right-radius: 5px;
+}
+
+.div-two-information > h3 {
+    line-height: 1.5;
+}
+
+.div-two-information > p {
+    padding-top: 10px;
+}
+
+.div-two-information > .number {
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.div-three {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 115px;
+    margin-left: 10px;
+    border-top-left-radius: 8px;
+}
+
+#img-three {
+    width: 115px;
+    height: 67px;
+    display: block;
+    border-top-left-radius: 8px;
+}
+
+.div-three-information {
+    padding: 10px;
+    text-align: center;
+    height: 261px;
+    border-bottom-left-radius: 5px;
+}
+
+.div-three-information > h3 {
+    line-height: 1.5;
+}
+
+.div-three-information > p {
+    padding-top: 10px;
+}
+
+.div-three-information > .number {
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+.div-four {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 115px;
+    margin-left: 1px;
+    border-top-right-radius: 8px;
+}
+
+#img-four {
+    width: 115px;
+    height: 67px;
+    display: block;
+    border-top-right-radius: 8px;
+}
+
+.div-four-information {
+    padding: 10px;
+    text-align: center;
+    height: 261px;
+}
+
+.div-four-information > h3 {
+    line-height: 1.5;
+}
+
+.div-four-information > p {
+    padding-top: 10px;
+}
+
+.div-four-information > .number {
+    font-weight: bolder;
+    margin-top: 29px;
+}
+
+/******* SECTION-INFOMATION *******/
+
+.section-information {
+    background-color: #fff1dd;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.section-information > h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.section-information > .container {
+    display: flex;
+    flex-flow: row nowrap; 
+    align-items: flex-start;
+    gap: 20px; 
+    padding-top: 10px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.text-container > p {
+    text-align: justify;
+}
+
+.container > img {
+    width: 210px;
+    border-radius: 10px;
+}
+
+/***** SECTION-INFORMATION *****/
+
+/******* CORPO ******/
+
+/****** FOOTER ******/
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.div-container {
+    padding-top: 10px;
+}
+
+.div-container > .div-input > input {
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+
+.div-container > .div-input {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.div-input > textarea {
+    border: none;
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+button {
+    background-color: rgb(78, 17, 17);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
