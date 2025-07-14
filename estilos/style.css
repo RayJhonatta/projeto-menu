@@ -30,6 +30,7 @@ header {
 }
 
 header > img {
+    text-align: center;
     height: 200px;
     width: 350px;
     border-bottom-right-radius: 15px;
@@ -70,17 +71,17 @@ main > section > h2 {
 
 .section-container {
     display: flex;
+    margin-left: 25px;
 }
 
 .div-one {
-    padding-left: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    width: 115px;
+    width: 90px;
     border-top-left-radius: 8px;
 }
 
 #img-one {
-    width: 105px;
+    width: 90px;
     height: 67px;
     border-top-left-radius: 8px;
     display: block;
@@ -93,26 +94,28 @@ main > section > h2 {
 }
 
 .div-information > h3 {
-    line-height: 1.5;
+    line-height: 1.1;
+    font-size: 15px;
 }
 
 .div-information > p {
-    padding-top: 16px;
+    padding-top: 12px;
 }
 
 .div-information > .number {
     font-weight: bolder;
+    margin-top: 8px;
 }
 
 .div-two {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    width: 115px;
+    width: 90px;
     margin-left: 1px;
     border-top-right-radius: 8px;
 }
 
 #img-two {
-    width: 115px;
+    width: 90px;
     height: 67px;
     display: block;
     border-top-right-radius: 8px;
@@ -127,26 +130,29 @@ main > section > h2 {
 
 .div-two-information > h3 {
     line-height: 1.5;
+    font-size: 1.1em;
 }
 
 .div-two-information > p {
     padding-top: 10px;
+    font-size: 14px;
 }
 
 .div-two-information > .number {
     font-weight: bolder;
-    margin-top: 30px;
+    margin-top: 26px;
+    font-size: 1em;
 }
 
 .div-three {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    width: 115px;
+    width: 90px;
     margin-left: 10px;
     border-top-left-radius: 8px;
 }
 
 #img-three {
-    width: 115px;
+    width: 90px;
     height: 67px;
     display: block;
     border-top-left-radius: 8px;
@@ -169,18 +175,18 @@ main > section > h2 {
 
 .div-three-information > .number {
     font-weight: bolder;
-    margin-top: 50px;
+    margin-top: 4px;
 }
 
 .div-four {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    width: 115px;
+    width: 90px;
     margin-left: 1px;
     border-top-right-radius: 8px;
 }
 
 #img-four {
-    width: 115px;
+    width: 90px;
     height: 67px;
     display: block;
     border-top-right-radius: 8px;
@@ -194,6 +200,7 @@ main > section > h2 {
 
 .div-four-information > h3 {
     line-height: 1.5;
+    font-size: 1.1em;
 }
 
 .div-four-information > p {
@@ -202,7 +209,7 @@ main > section > h2 {
 
 .div-four-information > .number {
     font-weight: bolder;
-    margin-top: 29px;
+    margin-top: 8px;
 }
 
 /******* SECTION-INFOMATION *******/
@@ -237,7 +244,8 @@ main > section > h2 {
 }
 
 .container > img {
-    width: 210px;
+    width: 180px;
+    height: 290px;
     border-radius: 10px;
 }
 
@@ -290,9 +298,7 @@ button {
 }
 
 button:active {
-    background-color: white;
-    color: black;
-    cursor: pointer;
+    background-color: rgb(185, 43, 43);
 }
 
 
