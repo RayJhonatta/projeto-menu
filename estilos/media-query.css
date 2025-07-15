@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    * {
+        transition: all 0.3s ease;  
+    }
+    
+    header > img {
+        width: 500px;
+    }
+
+    header > h1 {
+        font-size: 3em;
+    }
+
+    header > h2 {
+        font-size: 2.5em;
+        line-height: 1.6;
+    }
+
+    main > section > h2 {
+        font-size: 2em;
+    }
+
+    .section-container > .div-one {
+        width: 160px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .section-container > .div-one > #img-one {
+        width: 160px;
+        height: 110px;
+        border-top-right-radius: 8px;
+    }
+
+    .section-container > .div-one > .div-information > h3 {
+        font-size: 1.4em;
+    }
+
+    .section-container > .div-one > .div-information > p {
+        font-size: 1.1em;
+    }
+
+    .section-container > .div-one > .div-information > .number {
+        font-size: 1.3em;
+        margin-top: 20px;
+    }
+
+    .section-container > .div-two {
+        width: 160px;
+        margin-left: 10px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .section-container > .div-two > #img-two {
+        width: 160px;
+        height: 110px;
+        border-top-left-radius: 8px;
+
+    }
+
+    .section-container > .div-two > .div-two-information > h3 {
+        font-size: 1.4em;
+    }
+
+    .section-container > .div-two > .div-two-information > p {
+        font-size: 1.1em;
+    }
+
+    .section-container > .div-two > .div-two-information > .number {
+        font-size: 1.3em;
+        margin-top: 29px;
+    }
+
+    .section-container > .div-three {
+        width: 160px;
+        margin-left: 50px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .section-container > .div-three > #img-three {
+        width: 160px;
+        height: 110px;
+        border-top-right-radius: 8px;
+    }
+
+    .section-container > .div-three > .div-three-information > h3 {
+        font-size: 1.4em;
+    }
+
+    .section-container > .div-three > .div-three-information > p {
+        font-size: 1.2em;
+    }
+
+    .section-container > .div-three > .div-three-information > .number {
+        font-size: 1.3em;
+        margin-top: 77px;
+    }
+
+    .section-container > .div-four {
+        width: 160px;
+        margin-left: 10px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+
+    .section-container > .div-four > #img-four {
+        width: 160px;
+        height: 110px;
+        border-top-left-radius: 8px;
+    }
+
+    .section-container > .div-four > .div-four-information > h3 {
+        font-size: 1.4em;
+    }
+
+    .section-container > .div-four > .div-four-information > p {
+        font-size: 1.2em;
+    }
+
+    .section-container > .div-four > .div-four-information > .number {
+        font-size: 1.3em;
+        margin-top: 18px;
+    }
+
+    .section-information > h1 {
+        font-size: 2.6em;
+    }
+
+    .section-information > .container > .text-container {
+        font-size: 1.6em;
+    }
+
+    .section-information > .container > img {
+        height: 400px;
+        width: 350px;
+    }
+
+    footer > h1 {
+        font-size: 2.6em;
+    }
+
+    .div-container > .div-input > input {
+        width: 350px;
+        height: 40px;
+    }
+
+    .div-input > textarea {
+        width: 350px;
+        height: 40px;
+        padding-top: 12px;
+    }
+
+    button {
+        width: 350px;
+        height: 30px;
+    }
+}
+
+
