@@ -94,7 +94,7 @@ main > section > h2 {
 }
 
 .div-information > h3 {
-    line-height: 1.1;
+    line-height: 1.2;
     font-size: 15px;
 }
 
@@ -104,7 +104,7 @@ main > section > h2 {
 
 .div-information > .number {
     font-weight: bolder;
-    margin-top: 8px;
+    margin-top: 3px;
 }
 
 .div-two {
@@ -129,7 +129,7 @@ main > section > h2 {
 }
 
 .div-two-information > h3 {
-    line-height: 1.5;
+    line-height: 1.2;
     font-size: 1.1em;
 }
 
@@ -140,7 +140,7 @@ main > section > h2 {
 
 .div-two-information > .number {
     font-weight: bolder;
-    margin-top: 26px;
+    margin-top: 36px;
     font-size: 1em;
 }
 
